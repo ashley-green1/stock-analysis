@@ -12,7 +12,7 @@ He loved being able to analyze each stock at the click of a button and now wants
 ### Purpose
 Steve wants to analyze a higher number of stocks and I am here to help.  This may increase the amount of time it takes the analysis to produce results and I’d like to maintain or, even better, improve it!  Now I will take advantage of any opportunity to improve the workbooks efficiency by refactoring the VBA coding.  To ensure that I am going in the right direction, I will compare the new execution time with the original workbook.
 
-## 2)Results
+## Results
 
 ### Refactoring the Code
 
@@ -321,7 +321,7 @@ That’s an improvement of approximately 82% for each year.
 *Execution time for 2018 Refactored Coding* 
 ![2018 Refactored](https://github.com/ashley-green1/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
-## 3)Summary
+## Summary
 
 ### Advantages of refactoring code
 
