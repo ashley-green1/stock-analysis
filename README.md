@@ -292,7 +292,37 @@ End Sub
 
 
 ### 2017 vs 2018 Stock Performance
+
+
+There is a vast change in the 2017 performance of Green Stocks vs 2018.  Only 2 of the 12 stocks, ENPH and RUN produced a positive ROI in both years.  Many of the stocks also experiences a decline in volume.  
+
+![2017 Stock Performance](https://raw.githubusercontent.com/ashley-green1/stock-analysis/main/Resources/All_Stocks_2017.png)
+
+![2018 Stock Performance](https://raw.githubusercontent.com/ashley-green1/stock-analysis/main/Resources/All_Stocks_2018.png)
+
+Steve should look at both economic and industry related influences before advising his parents on their investment decision.  They may be better off looking at another industry.
+
+Now lets see if the workbook can handle increasing the number of stocks analyzed. 
+
+### Execution time
+
+Improving the efficiency of the code was a success!  Execution time improved from 0.9433594 seconds to 0.1708984 seconds for 2017, and, 1.066406 to 0.1894531 for 2018.
+That’s an improvement of approximately 82% for each year.
+
+*Execution time for 2017 Original Coding* 
+![2017 Original](https://github.com/ashley-green1/stock-analysis/blob/main/Resources/Timer_Before_Refactor_2017.png)
+
+*Execution time for 2017 Refactored Coding* 
+![2017 Refactored](https://github.com/ashley-green1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+*Execution time for 2018 Original Coding* 
+![2018 Original](https://github.com/ashley-green1/stock-analysis/blob/main/Resources/Timer_Before_Refactor_2018.png)
+
+*Execution time for 2018 Refactored Coding* 
+![2018 Refactored](https://github.com/ashley-green1/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
 ## 3)Summary
+
 ### Advantages of refactoring code
 Refactoring decreases execution time and prevents redundancy 
 
