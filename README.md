@@ -324,6 +324,10 @@ That’s an improvement of approximately 82% for each year.
 ## 3)Summary
 
 ### Advantages of refactoring code
-Refactoring decreases execution time and prevents redundancy 
+
+The obvious advantage of refactoring code is that it makes it more efficient if you get it right.  An 82% reduction in execution time can be huge if analyzing thousands of rows of data.  
 
 ### Disadvantages of refactoring code
+
+A huge risk with refactoring is that your errors may destroy an already working code.  It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues.  That way you can always go back a step without needing to start completely over.  I personally ran into issues during refactoring and found that using the msgBox script, as well as, testing performance outputs individually helped me identify what was driving my errors.   
+
